@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventCalender2024", "AdventCalender2024\AdventCalender2024.csproj", "{ACE4C52F-AE2A-46EA-9D6D-0F0029B846EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4DACF2EB-B60B-466D-9BD3-8B3075EBEBEA}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile1.1.txt = TextFile1.1.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACE4C52F-AE2A-46EA-9D6D-0F0029B846EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE4C52F-AE2A-46EA-9D6D-0F0029B846EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE4C52F-AE2A-46EA-9D6D-0F0029B846EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE4C52F-AE2A-46EA-9D6D-0F0029B846EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CF4B551-EA51-484B-852C-66541070D762}
+	EndGlobalSection
+EndGlobal
