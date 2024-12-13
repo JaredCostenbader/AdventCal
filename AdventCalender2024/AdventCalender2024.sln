@@ -8,7 +8,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{4DACF2EB-B60B-466D-9BD3-8B3075EBEBEA}"
 	ProjectSection(SolutionItems) = preProject
 		TextFile1.1.txt = TextFile1.1.txt
+		TextFile2.1.txt = TextFile2.1.txt
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventDay2", "AdventDay2\AdventDay2.csproj", "{C96FE6D3-84C5-4834-90B8-7A093424C58F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +23,10 @@ Global
 		{ACE4C52F-AE2A-46EA-9D6D-0F0029B846EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACE4C52F-AE2A-46EA-9D6D-0F0029B846EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACE4C52F-AE2A-46EA-9D6D-0F0029B846EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C96FE6D3-84C5-4834-90B8-7A093424C58F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C96FE6D3-84C5-4834-90B8-7A093424C58F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C96FE6D3-84C5-4834-90B8-7A093424C58F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C96FE6D3-84C5-4834-90B8-7A093424C58F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
