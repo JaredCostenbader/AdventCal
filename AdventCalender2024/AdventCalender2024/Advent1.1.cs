@@ -40,6 +40,20 @@ class Sorting
             distance += Math.Abs(rightNumbers[i] - leftNumbers[i]);
         }
 
+        // Calculate the similarity score
+        int similarityScore = 0;
+
+        foreach (int leftNumber in leftNumbers)
+        {
+            // Count how many times the leftNumber appears in the right list
+            int count = rightNumbers.Count(x => x == leftNumber);
+            // Add to the similarity score
+            similarityScore += leftNumber * count;
+        }
+
+
+
+
         // Print the sorted numbers
         Console.WriteLine("Sorted left numbers:");
         foreach (int number in leftNumbers)
@@ -54,8 +68,8 @@ class Sorting
         }
 
         Console.WriteLine($"Total distance: {distance}");
-        
 
+        Console.WriteLine($"Similarity score: {similarityScore}");
 
     }
 
