@@ -7,8 +7,7 @@ partial class Program
 {
     static void Main()
     {
-        string[] lines =
-            File.ReadAllLines("C:\\Users\\justi\\Documents\\Github\\AdventCal\\AdventCalender2024\\TextFile2.1.txt");
+        string[] lines = File.ReadAllLines("C:\\Users\\justi\\Documents\\Github\\AdventCal\\AdventCalender2024\\TextFile2.1.txt");
 
         var answer = 0;
         foreach (var line in lines)
